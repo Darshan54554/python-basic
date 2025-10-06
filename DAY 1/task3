@@ -1,0 +1,9 @@
+name = input("Enter your name: ")
+age = int(input("Enter your age: "))  # Convert directly here
+language = input("Enter your favorite language: ")
+
+intro = f"Hey, I'm {name}. I'm {age} years old, and I love coding in {language}!"
+print(intro)
+
+future_age = age + 5
+print(f"In 5 years, you'll be {future_age} years old!")
